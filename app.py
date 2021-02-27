@@ -42,10 +42,10 @@ def welcome():
     return (
         f"Available Routes:<br/>"
         f"<a href = /api/v1.0/precipitation> Precipitation</a><br/>"
-        f"/api/v1.0/stations<br/>"
-        f"/api/v1.0/temperatures<br/>"
-        f"/api/v1.0/<start><br/>" 
-        f"/api/v1.0/<start>/<end><br/>"
+        f"<a href = /api/v1.0/stations> Stations</a><br/>"
+        f"<a href = /api/v1.0/temperatures> Temperatures </a><br/>"
+        f"<a href = '/api/v1.0/<start>'> Start Date </a><br/>" 
+        f"<a href = '/api/v1.0/<start>/<end>'> Start Date & End Date </a><br/>"
         )
 @app.route("/api/v1.0/precipitation")
 def precipitation():
