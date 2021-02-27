@@ -1,1 +1,1 @@
-# sql-alchemy-challenge
+# SQL -Alchemy- Challenge### In this project we have analysed the data by connecting to SQLite server using Pandas and Jupyter Notebok.### A total 9 stations were present in the data set### Most Active Station is :  WAIHEE 837.5, HI US (USC00519281)### Minimum,  Maximum and Average Temperature of Most active Station is (54.0, 85.0, 71.66)### Station with most temperature observations  is :  WAIHEE 837.5, HI US (USC00519281)
