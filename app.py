@@ -40,12 +40,12 @@ app = Flask(__name__)
 def welcome():
     """List all available api routes."""
     return (
-        f"Available Routes:<br/>"
-        f"<a href = /api/v1.0/precipitation> Precipitation</a><br/>"
-        f"<a href = /api/v1.0/stations> Stations</a><br/>"
-        f"<a href = /api/v1.0/temperatures> Temperatures </a><br/>"
-        f"<a href = '/api/v1.0/<start>'> Start Date </a><br/>" 
-        f"<a href = '/api/v1.0/<start>/<end>'> Start Date & End Date </a><br/>"
+        f"<h2>Available Routes:</h2><br/>"
+        f"<li><a href = /api/v1.0/precipitation> Precipitation Details :  </a>&nbsp /api/v1.0/precipitation<br/>"
+        f"<li><a href = /api/v1.0/stations> Stations Details : </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp/api/v1.0/stations <br/>"
+        f"<li><a href = /api/v1.0/temperatures> Temperatures Details :  </a> /api/v1.0/temperatures<br/>"
+        f"<ul><li>Start Date:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  /api/v1.0/<start> </ul> <br/>" 
+        f"<li></li>Start & End Date&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'/api/v1.0/<start>/<end>'</ul><br/>"
         )
 @app.route("/api/v1.0/precipitation")
 def precipitation():
