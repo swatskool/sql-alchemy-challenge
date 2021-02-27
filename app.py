@@ -43,9 +43,10 @@ def welcome():
         f"<h2>Available Routes:</h2><br/>"
         f"<li><a href = /api/v1.0/precipitation> Precipitation Details :  </a>&nbsp /api/v1.0/precipitation<br/>"
         f"<li><a href = /api/v1.0/stations> Stations Details : </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp/api/v1.0/stations <br/>"
-        f"<li><a href = /api/v1.0/temperatures> Temperatures Details :  </a> /api/v1.0/temperatures<br/>"
-        f"<ul><li>Start Date:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  /api/v1.0/<start> </ul> <br/>" 
-        f"<li></li>Start & End Date&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'/api/v1.0/<start>/<end>'</ul><br/>"
+        f"<li><a href = /api/v1.0/temperatures> Temperatures Details :  </a> /api/v1.0/temperatures<br/><br/>"
+        f"<li>Using Dates :</ul> <br/>"
+        f"<ul><li>/api/v1.0/start_date <br/>" 
+        f"<li>/api/v1.0/start_date/end_date</ul><br/>"
         )
 @app.route("/api/v1.0/precipitation")
 def precipitation():
